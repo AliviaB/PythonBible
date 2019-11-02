@@ -1,0 +1,10 @@
+array =[4,1,2,8,7,-1,10,9]
+largest=0
+mul=0
+for a in range(0,len(array)-1):
+    mul=array[a]*array[a+1]
+    if mul>largest:
+        largest=mul
+
+print(largest)
+################################################################################ List Tuple dictionary
